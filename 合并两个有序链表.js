@@ -1,3 +1,5 @@
+// 输入：l1 = [1,2,4], l2 = [1,3,4]
+// 输出：[1,1,2,3,4,4]
 var mergeTwoLists = function(l1, l2) {
     if(l1 === null) return l2
     if(l2 === null) return l1
